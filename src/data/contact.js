@@ -1,8 +1,7 @@
 import { faGithub } from '@fortawesome/free-brands-svg-icons/faGithub';
-import { faFacebookF } from '@fortawesome/free-brands-svg-icons/faFacebookF';
-import { faInstagram } from '@fortawesome/free-brands-svg-icons/faInstagram';
+import { faTelegram } from '@fortawesome/free-brands-svg-icons/faTelegram';
 import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons/faLinkedinIn';
-import { faAngellist } from '@fortawesome/free-brands-svg-icons/faAngellist';
+import { faEthereum } from '@fortawesome/free-brands-svg-icons/faEthereum';
 import { faTwitter } from '@fortawesome/free-brands-svg-icons/faTwitter';
 import { faEnvelope } from '@fortawesome/free-regular-svg-icons/faEnvelope';
 // See https://fontawesome.com/icons?d=gallery&s=brands,regular&m=free
@@ -10,37 +9,32 @@ import { faEnvelope } from '@fortawesome/free-regular-svg-icons/faEnvelope';
 
 const data = [
   {
-    link: 'https://github.com/mldangelo',
-    label: 'Github',
-    icon: faGithub,
-  },
-  {
-    link: 'https://facebook.com/md',
-    label: 'Facebook',
-    icon: faFacebookF,
-  },
-  {
-    link: 'https://www.instagram.com/dangelosaurus/',
-    label: 'Instagram',
-    icon: faInstagram,
-  },
-  {
-    link: 'https://www.linkedin.com/in/michaelldangelo',
+    link: 'https://www.linkedin.com/in/canalesclaudio',
     label: 'LinkedIn',
     icon: faLinkedinIn,
   },
   {
-    link: 'https://angel.co/michael-d-angelo',
-    label: 'Angel List',
-    icon: faAngellist,
-  },
-  {
-    link: 'https://twitter.com/dangelosaurus',
+    link: 'https://twitter.com/klaudioz',
     label: 'Twitter',
     icon: faTwitter,
   },
   {
-    link: 'mailto:michael.l.dangelo@gmail.com',
+    link: 'https://github.com/klaudioz',
+    label: 'Github',
+    icon: faGithub,
+  },
+  {
+    link: 'https://t.me/DevOps_Claudio',
+    label: 'Telegram',
+    icon: faTelegram,
+  },
+  {
+    link: 'https://klaudioz.eth',
+    label: 'Ethereum',
+    icon: faEthereum,
+  },
+  {
+    link: 'mailto:klaudioz@gmail.com',
     label: 'Email',
     icon: faEnvelope,
   },
